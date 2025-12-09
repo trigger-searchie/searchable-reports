@@ -1,6 +1,6 @@
 # Stripe Subscription Report
 
-**Generated:** December 8, 2025 at 7:27 PM EST
+**Generated:** December 8, 2025 at 7:32 PM EST
 **Data Source:** Stripe Live Mode
 **Report Type:** Complete Subscription Analysis
 
@@ -356,4 +356,4 @@ Subscriptions where the customer started checkout but payment was never complete
 
 ---
 
-*Report generated from Stripe live mode data on December 8, 2025 at 7:27 PM EST*
+*Report generated from Stripe live mode data on December 8, 2025 at 7:32 PM EST*
