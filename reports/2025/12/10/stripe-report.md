@@ -1,6 +1,6 @@
 # Stripe Subscription Report
 
-**Generated:** December 11, 2025 at 5:46 PM UTC
+**Generated:** December 11, 2025 at 6:16 PM UTC
 **Data Source:** Stripe Live Mode
 **Report Type:** Complete Subscription Analysis
 
@@ -10,14 +10,14 @@
 
 | Metric | Value |
 |--------|-------|
-| **Total Subscriptions (All Time)** | 721 |
+| **Total Subscriptions (All Time)** | 722 |
 | **Active Paying Customers** | 169 |
-| **Active Trials** | 368 |
+| **Active Trials** | 369 |
 | **Current MRR** | $18,580.67 |
 | **Current ARR** | $222,968 |
-| **Potential MRR (if all trials convert)** | $44,497.17 |
-| **Total Potential MRR** | $63,077.83 |
-| **Total Potential ARR** | $756,934 |
+| **Potential MRR (if all trials convert)** | $44,622.17 |
+| **Total Potential MRR** | $63,202.83 |
+| **Total Potential ARR** | $758,434 |
 
 ---
 
@@ -26,11 +26,11 @@
 ### Current Funnel Status
 
 ```
-Total Signups (All Time): 721
+Total Signups (All Time): 722
     │
-    ├── Active Trials: 368 (51.0%)
+    ├── Active Trials: 369 (51.1%)
     │       │
-    │       └── Potential Conversions: $44,497/mo
+    │       └── Potential Conversions: $44,622/mo
     │
     ├── Converted to Paid: 169 (23.4%)
     │       │
@@ -53,30 +53,30 @@ Total Signups (All Time): 721
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Total Trials Started** | 695 | Trialing + Converted + Canceled from trial |
+| **Total Trials Started** | 696 | Trialing + Converted + Canceled from trial |
 | **Trials Converted to Paid** | 169 | Currently active paying customers |
 | **Trials Canceled** | 158 | Churned without converting |
-| **Trials Still Active** | 368 | Currently in trial period |
+| **Trials Still Active** | 369 | Currently in trial period |
 | **Historical Conversion Rate** | 51.7% | 169 / (169 + 158) completed trials |
-| **Current Trial Pool** | 368 | Pending conversion decision |
+| **Current Trial Pool** | 369 | Pending conversion decision |
 
 ### Projected Conversions (Based on Historical Rate)
 
 | Scenario | Conversion Rate | Projected New Customers | Projected New MRR |
 |----------|-----------------|-------------------------|-------------------|
-| **Pessimistic** | 40% | 147 | $17,799 |
-| **Historical** | 51.7% | 190 | $22,997 |
-| **Optimistic** | 70% | 258 | $31,148 |
+| **Pessimistic** | 40% | 148 | $17,849 |
+| **Historical** | 51.7% | 191 | $23,062 |
+| **Optimistic** | 70% | 258 | $31,236 |
 
 ### Trial Conversion Timeline
 
 | Timeframe | Trials Expiring | Potential MRR | Est. Conversions (51.7%) | Est. New MRR |
 |-----------|-----------------|---------------|--------------------------|--------------|
-| Today/Tomorrow | 18 | $2,176 | 9 | $1,125 |
+| Today/Tomorrow | 18 | $2,177 | 9 | $1,125 |
 | 2-3 days | 12 | $1,451 | 6 | $750 |
-| 4-7 days | 55 | $6,650 | 28 | $3,437 |
-| 7+ days | 283 | $34,219 | 146 | $17,685 |
-| **Total** | **368** | **$44,497** | **190** | **$22,997** |
+| 4-7 days | 55 | $6,651 | 28 | $3,437 |
+| 7+ days | 284 | $34,343 | 147 | $17,749 |
+| **Total** | **369** | **$44,622** | **191** | **$23,062** |
 
 ---
 
@@ -84,7 +84,7 @@ Total Signups (All Time): 721
 
 | Status | Count | % of Total | MRR | Description |
 |--------|-------|------------|-----|-------------|
-| Trialing | 368 | 51.0% | $44,497 (potential) | Active free trials |
+| Trialing | 369 | 51.1% | $44,622 (potential) | Active free trials |
 | Active | 169 | 23.4% | $18,581 | Paying customers |
 | Past Due | 19 | 2.6% | $2,723 (at risk) | Failed payment, needs recovery |
 | Canceled | 158 | 21.9% | - | Churned subscriptions |
@@ -93,19 +93,19 @@ Total Signups (All Time): 721
 
 ---
 
-## Trialing Subscriptions (368)
+## Trialing Subscriptions (369)
 
 ### Overview
-- **Total Trials:** 368
-- **Potential MRR:** $44,497.17
-- **Potential ARR:** $533,966
-- **Average Trial Value:** $120.92/month
+- **Total Trials:** 369
+- **Potential MRR:** $44,622.17
+- **Potential ARR:** $535,466
+- **Average Trial Value:** $120.93/month
 
 ### By Plan
 
 | Plan | Count | % | Potential MRR |
 |------|-------|---|-----|
-| Professional | 345 | 93.8% | $42,674 |
+| Professional | 346 | 93.8% | $42,799 |
 | Starter | 22 | 6.0% | $1,423 |
 | Scale | 1 | 0.3% | $400 |
 
@@ -113,14 +113,14 @@ Total Signups (All Time): 721
 
 | Billing | Count | % | MRR |
 |---------|-------|---|-----|
-| Monthly | 353 | 95.9% | $43,193 |
+| Monthly | 354 | 95.9% | $43,318 |
 | Yearly | 15 | 4.1% | $1,304 |
 
 ### By Price (Detailed)
 
 | Plan | Price ID | Price | Count | % | Monthly Value |
 |------|----------|-------|-------|---|---------------|
-| Professional | price_1SVcTqD7fcd3hD7aTIKTEEuC | $125/mo | 330 | 89.7% | $41,250 |
+| Professional | price_1SVcTqD7fcd3hD7aTIKTEEuC | $125/mo | 331 | 89.7% | $41,375 |
 | Starter | price_1SVcThD7fcd3hD7aFYufjnwu | $50/mo | 15 | 4.1% | $750 |
 | Professional | price_1SVcTrD7fcd3hD7a2WxktV2i | $1,050/yr | 14 | 3.8% | $1,225 |
 | Starter | price_1SQu3nD7fcd3hD7akQOj3ZyN | $99/mo | 6 | 1.6% | $594 |
@@ -135,7 +135,7 @@ Total Signups (All Time): 721
 | Today/Tomorrow | 18 | 4.9% | CRITICAL |
 | 2-3 days | 12 | 3.3% | HIGH |
 | 4-7 days | 55 | 14.9% | MEDIUM |
-| 7+ days | 283 | 76.9% | LOW |
+| 7+ days | 284 | 77.0% | LOW |
 
 #### CRITICAL: Trials Expiring Today/Tomorrow (18)
 
@@ -293,17 +293,17 @@ These subscriptions have failed payment attempts and require immediate attention
 | Metric | Monthly | Annual |
 |--------|---------|--------|
 | Current MRR | $18,580.67 | $222,968 |
-| Trial Potential | $44,497.17 | $533,966 |
-| **Total Potential** | **$63,077.83** | **$756,934** |
+| Trial Potential | $44,622.17 | $535,466 |
+| **Total Potential** | **$63,202.83** | **$758,434** |
 
 ---
 
 ## Key Insights & Recommendations
 
 ### 1. Trial Conversion Opportunity
-- **368 active trials** represent massive growth potential
-- Historical conversion rate of **51.7%** suggests ~190 new customers
-- Projected additional MRR: **$22,997/month**
+- **369 active trials** represent massive growth potential
+- Historical conversion rate of **51.7%** suggests ~191 new customers
+- Projected additional MRR: **$23,062/month**
 - **Action:** Focus on trial nurturing and conversion optimization
 
 ### 2. Urgent Revenue Recovery
@@ -338,4 +338,4 @@ These subscriptions have failed payment attempts and require immediate attention
 
 ---
 
-*Report generated from Stripe live mode data on December 11, 2025 at 5:46 PM UTC*
+*Report generated from Stripe live mode data on December 11, 2025 at 6:16 PM UTC*
